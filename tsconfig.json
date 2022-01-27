@@ -16,6 +16,7 @@
 		"incremental": true,
 		"baseUrl": "./src",
 		"paths": {
+			"@atoms": ["components/atoms"],
 			"@styles/*": ["styles/*"]
 		}
 	},
