@@ -1,9 +1,19 @@
 import { styled } from '@styles/stiches.config';
 
 export const Heading = styled('h1', {
-	color: '$primaryText',
 	fontWeight: '$semiBold',
 	variants: {
+		colorVariant: {
+			primary: {
+				color: '$primaryText',
+			},
+			secondary: {
+				color: '$secondaryText',
+			},
+			accent: {
+				color: '$accent',
+			},
+		},
 		variant: {
 			h1: {
 				fontSize: '$6xl',
