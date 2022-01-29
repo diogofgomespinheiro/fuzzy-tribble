@@ -16,6 +16,8 @@ export const {
 			background: '#fafbff',
 			primaryText: '#555b6e',
 			secondaryText: '#a2a5af',
+			buttonTextColor: '#fafbff',
+			buttonBackground: '$accent',
 		},
 		fonts: {
 			heading: 'Poppins, sans-serif',
@@ -65,5 +67,7 @@ export const darkTheme = createTheme({
 		background: '#100E17',
 		primaryText: '#fafbff',
 		secondaryText: '#a2a5af',
+		buttonTextColor: '#fafbff',
+		buttonBackground: '$accent',
 	},
 });
